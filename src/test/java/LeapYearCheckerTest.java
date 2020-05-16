@@ -19,5 +19,9 @@ public class LeapYearCheckerTest extends TestCase{
 	public void testLeapYear_NotLeapYear() throws Exception {
 		assertFalse(testObject.isLeapYear(2017));
 	}
+	
+	public void testLeapYear_NotLeapYear2() throws Exception {
+		assertFalse(testObject.isLeapYear(1700));
+	}
 
 }

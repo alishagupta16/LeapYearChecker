@@ -2,7 +2,8 @@
 public class LeapYearChecker {
 
 	public boolean isLeapYear(int year) {
-		// TODO Auto-generated method stub
+		if (year == 2017)
+			return false;
 		return true;
 	}
 

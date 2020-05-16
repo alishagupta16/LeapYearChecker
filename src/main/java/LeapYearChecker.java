@@ -2,9 +2,8 @@
 public class LeapYearChecker {
 
 	public boolean isLeapYear(int year) {
-		if (year == 2017)
-			return false;
-		return true;
+		boolean result = year % 4 == 0;
+		return result;
 	}
 
 }
